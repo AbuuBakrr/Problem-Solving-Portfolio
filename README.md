@@ -1,49 +1,108 @@
 # Problem-Solving Portfolio
 
-This repository collects competitive programming solutions (primarily Codeforces) organized by problem rating. It's a personal portfolio for practicing algorithmic problems and tracking submissions.
+A curated collection of competitive programming solutions, primarily from Codeforces. Organized by problem difficulty rating with solutions structured for easy navigation and reference.
 
-## Structure
+---
 
-- `codeforces/` — solutions grouped by rating folders (`800/`, `900/`, `1000/`, ...). Each rating folder contains a `README.md` summarizing problems and solution links, and one `.cpp` file per problem.
-- `problem`, `problem.cpp`, `input.txt`, `output.txt`, `test/` — workspace/test files used locally.
+## Overview
 
-Filenames follow the pattern: `<Title>_<contestID><problemLetter>.cpp` (for example: `Tram_116A.cpp`).
+This portfolio tracks algorithmic problem-solving progress through:
 
-## How to build and run a single solution
+- **Solutions**: C++ implementations organized by rating level
+- **Documentation**: Problem details and references for each submission
+- **Tracking**: Complete submission history with timestamps
 
-1. Compile a solution with g++ (example using C++20):
+---
+
+## Repository Structure
+
+```
+Problem-Solving-Portfolio/
+├── codeforces/                    # Codeforces problem solutions
+│   ├── 800/                       # Rating 800 problems
+│   ├── 900/                       # Rating 900 problems
+│   ├── 1000/                      # Rating 1000 problems
+│   ├── 1100/                      # Rating 1100 problems
+│   ├── 1200/                      # Rating 1200 problems
+│   ├── 1300/                      # Rating 1300 problems
+│   ├── 1600/                      # Rating 1600 problems
+│   └── Community Sheets/          # Additional practice materials
+├── input.txt                      # Test input file
+├── output.txt                     # Test output file
+└── test/                          # Local testing workspace
+```
+
+### File Naming Convention
+
+All solution files follow this pattern:
+
+```
+<ProblemTitle>_<ContestID><ProblemLetter>.cpp
+```
+
+Example: `Tram_116A.cpp`
+
+---
+
+## Getting Started
+
+### Compiling a Solution
+
+Compile with g++ using C++20 (or C++23 for newer problems):
 
 ```bash
 g++ -std=c++20 -O2 -Wall -Wextra "codeforces/800/Tram_116A.cpp" -o tram
 ```
 
-2. Run the compiled program and (optionally) feed input from a file:
+### Running a Solution
+
+Run the compiled program with optional input from a file:
 
 ```bash
 ./tram < input.txt
 ```
 
-Or compile & run in one line:
+Alternatively, compile and run in a single command:
 
 ```bash
 g++ -std=c++20 -O2 "codeforces/800/Tram_116A.cpp" && ./a.out
 ```
 
-## Contributing / Adding new solutions
+---
 
-- Add a new `.cpp` file under the appropriate rating folder and follow the filename pattern.
-- Update the corresponding rating `README.md` with problem metadata and a link to the solution file.
-- Keep solutions self-contained; avoid changing other files unless necessary.
+## Adding New Solutions
 
-## Notes
-
-- Solution files are usually simple, single-file C++ programs ready to be compiled.
-- The `codeforces/README.md` is an auto-generated index of submissions.
-
-## Contact
-
-If you want changes, run suggestions, or help implementing solutions, open an issue or edit the repo directly.
+1. Place the `.cpp` file in the appropriate rating folder under `codeforces/`
+2. Follow the filename pattern: `<Title>_<ContestID><Letter>.cpp`
+3. Update the corresponding rating folder's `README.md`
+4. Keep solutions self-contained (single file, no external dependencies)
 
 ---
 
-Generated: automated README for quick navigation and usage.
+## Key Features
+
+- **Organized by Difficulty**: Solutions grouped into rating-based folders
+- **Well Documented**: Each solution includes problem links and submission details
+- **Easy Navigation**: README files in each rating folder provide quick access
+- **Auto-indexed**: Central index tracks all submissions with timestamps
+
+---
+
+## Notes
+
+- All solution files are standalone C++ programs
+- Solutions are tested and accepted on Codeforces
+- Rating folders automatically generated and indexed
+- Problem solutions organized from easiest (800) to most difficult (1600+)
+
+---
+
+## Contact
+
+For suggestions, contributions, or improvements:
+
+- Open an issue on GitHub
+- Edit the repository directly
+- Submit pull requests with new solutions
+
+---

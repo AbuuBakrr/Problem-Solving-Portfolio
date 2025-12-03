@@ -1,37 +1,55 @@
-# Codeforces 800 Rating Submissions
+# Rating 800 - Beginner Problems
 
-| # | Title | Solution | Tags | Submitted |
-|:-:|-------|----------|------|-----------|
-| 33 | [A - Tram](https://codeforces.com/contest/116/problem/A) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/116/submission/320287326) | `implementation` `*800` | May/18/2025 11:27 PM |
-| 32 | [A - Cancel the Trains](https://codeforces.com/contest/1453/problem/A) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/1453/submission/320057310) | `implementation` `*800` | May/17/2025 05:49 PM |
-| 31 | [A - Angry Students](https://codeforces.com/contest/1287/problem/A) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/1287/submission/318414723) | `greedy` `implementation` `*800` | May/05/2025 09:45 AM |
-| 30 | [A - Vanya and Cubes](https://codeforces.com/contest/492/problem/A) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/492/submission/317637669) | `implementation` `*800` | Apr/28/2025 07:00 PM |
-| 29 | [A - Beautiful Matrix](https://codeforces.com/contest/263/problem/A) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/263/submission/317576619) | `implementation` `*800` | Apr/28/2025 04:29 PM |
-| 28 | [A - Wrong Subtraction](https://codeforces.com/contest/977/problem/A) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/977/submission/317575460) | `implementation` `*800` | Apr/28/2025 04:17 PM |
-| 27 | [A - Bear and Big Brother](https://codeforces.com/contest/791/problem/A) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/791/submission/317575124) | `implementation` `*800` | Apr/28/2025 04:14 PM |
-| 26 | [A - Arrival of the General](https://codeforces.com/contest/144/problem/A) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/144/submission/317429543) | `implementation` `*800` | Apr/27/2025 11:28 AM |
-| 25 | [A - Team](https://codeforces.com/contest/231/problem/A) | [C++20 (GCC 13-64)](https://codeforces.com/contest/231/submission/316386177) | `brute force` `greedy` `*800` | Apr/20/2025 03:14 PM |
-| 24 | [A - George and Accommodation](https://codeforces.com/contest/467/problem/A) | [C++20 (GCC 13-64)](https://codeforces.com/contest/467/submission/316383325) | `implementation` `*800` | Apr/20/2025 02:50 PM |
-| 23 | [A - Bit++](https://codeforces.com/contest/282/problem/A) | [C++20 (GCC 13-64)](https://codeforces.com/contest/282/submission/316383204) | `implementation` `*800` | Apr/20/2025 02:49 PM |
-| 22 | [A - Watermelon](https://codeforces.com/contest/4/problem/A) | [C++20 (GCC 13-64)](https://codeforces.com/contest/4/submission/315979827) | `brute force` `math` `*800` | Apr/17/2025 05:16 PM |
-| 21 | [A - Team Olympiad](https://codeforces.com/contest/490/problem/A) | [C++20 (GCC 13-64)](https://codeforces.com/contest/490/submission/315731435) | `greedy` `implementation` `sortings` `*800` | Apr/15/2025 05:39 PM |
-| 20 | [A - Hit the Lottery](https://codeforces.com/contest/996/problem/A) | [C++20 (GCC 13-64)](https://codeforces.com/contest/996/submission/311256001) | `dp` `greedy` `*800` | Mar/18/2025 02:25 PM |
-| 19 | [A - Elephant](https://codeforces.com/contest/617/problem/A) | [C++20 (GCC 13-64)](https://codeforces.com/contest/617/submission/311254077) | `math` `*800` | Mar/18/2025 02:11 PM |
-| 18 | [A - Domino piling](https://codeforces.com/contest/50/problem/A) | [C++20 (GCC 13-64)](https://codeforces.com/contest/50/submission/311253199) | `greedy` `math` `*800` | Mar/18/2025 02:05 PM |
-| 17 | [A - Skibidus and Amog'u](https://codeforces.com/contest/2065/problem/A) | [C++20 (GCC 13-64)](https://codeforces.com/contest/2065/submission/305202533) | `brute force` `constructive algorithms` `greedy` `implementation` `strings` `*800` | Feb/09/2025 05:02 PM |
-| 16 | [A - Anton and Letters](https://codeforces.com/contest/443/problem/A) | [C++20 (GCC 13-64)](https://codeforces.com/contest/443/submission/304315749) | `constructive algorithms` `implementation` `*800` | Feb/03/2025 09:58 PM |
-| 15 | [A - Shaass and Oskols](https://codeforces.com/contest/294/problem/A) | [C++20 (GCC 13-64)](https://codeforces.com/contest/294/submission/303311083) | `implementation` `math` `*800` | Jan/28/2025 03:41 AM |
-| 14 | [A - Colorful Stones (Simplified Edition)](https://codeforces.com/contest/265/problem/A) | [C++20 (GCC 13-64)](https://codeforces.com/contest/265/submission/303309922) | `implementation` `*800` | Jan/28/2025 03:05 AM |
-| 13 | [A - Is your horseshoe on the other hoof?](https://codeforces.com/contest/228/problem/A) | [C++20 (GCC 13-64)](https://codeforces.com/contest/228/submission/303309324) | `implementation` `*800` | Jan/28/2025 02:47 AM |
-| 12 | [A - Buy a Shovel](https://codeforces.com/contest/732/problem/A) | [C++20 (GCC 13-64)](https://codeforces.com/contest/732/submission/303308787) | `brute force` `constructive algorithms` `implementation` `math` `*800` | Jan/28/2025 02:29 AM |
-| 11 | [A - Games](https://codeforces.com/contest/268/problem/A) | [C++20 (GCC 13-64)](https://codeforces.com/contest/268/submission/303032284) | `brute force` `*800` | Jan/26/2025 03:11 PM |
-| 10 | [A - Black Square](https://codeforces.com/contest/431/problem/A) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/431/submission/288053641) | `implementation` `*800` | Oct/26/2024 11:39 AM |
-| 9 | [A - Police Recruits](https://codeforces.com/contest/427/problem/A) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/427/submission/288049006) | `implementation` `*800` | Oct/26/2024 11:05 AM |
-| 8 | [A - Stones on the Table](https://codeforces.com/contest/266/problem/A) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/266/submission/287872359) | `implementation` `*800` | Oct/25/2024 10:05 AM |
-| 7 | [A - Sereja and Dima](https://codeforces.com/contest/381/problem/A) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/381/submission/287855024) | `greedy` `implementation` `two pointers` `*800` | Oct/25/2024 07:00 AM |
-| 6 | [A - Magnets](https://codeforces.com/contest/344/problem/A) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/344/submission/287434142) | `implementation` `*800` | Oct/22/2024 11:50 PM |
-| 5 | [A - Word](https://codeforces.com/contest/59/problem/A) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/59/submission/287433439) | `implementation` `strings` `*800` | Oct/22/2024 11:41 PM |
-| 4 | [A - Boy or Girl](https://codeforces.com/contest/236/problem/A) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/236/submission/287430533) | `brute force` `implementation` `strings` `*800` | Oct/22/2024 11:06 PM |
-| 3 | [A - Petya and Strings](https://codeforces.com/contest/112/problem/A) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/112/submission/287399287) | `implementation` `strings` `*800` | Oct/22/2024 07:27 PM |
-| 2 | [A - Anton and Danik](https://codeforces.com/contest/734/problem/A) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/734/submission/286485913) | `implementation` `strings` `*800` | Oct/18/2024 09:53 AM |
-| 1 | [A - Vanya and Fence](https://codeforces.com/contest/677/problem/A) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/677/submission/286482784) | `implementation` `*800` | Oct/18/2024 09:24 AM |
+A collection of 33 beginner-level Codeforces problems focusing on fundamental algorithmic concepts and implementation skills.
+
+---
+
+## Problem Summary
+
+This difficulty level emphasizes:
+
+- Basic implementation techniques
+- Simple data structures
+- Brute force solutions
+- String manipulation
+- Simple mathematics
+
+---
+
+## Problems
+
+|  #  | Title                                                                                    | Solution                                                                             | Tags                                                                               | Submitted            |
+| :-: | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- | -------------------- |
+| 33  | [A - Tram](https://codeforces.com/contest/116/problem/A)                                 | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/116/submission/320287326)  | `implementation` `*800`                                                            | May/18/2025 11:27 PM |
+| 32  | [A - Cancel the Trains](https://codeforces.com/contest/1453/problem/A)                   | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/1453/submission/320057310) | `implementation` `*800`                                                            | May/17/2025 05:49 PM |
+| 31  | [A - Angry Students](https://codeforces.com/contest/1287/problem/A)                      | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/1287/submission/318414723) | `greedy` `implementation` `*800`                                                   | May/05/2025 09:45 AM |
+| 30  | [A - Vanya and Cubes](https://codeforces.com/contest/492/problem/A)                      | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/492/submission/317637669)  | `implementation` `*800`                                                            | Apr/28/2025 07:00 PM |
+| 29  | [A - Beautiful Matrix](https://codeforces.com/contest/263/problem/A)                     | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/263/submission/317576619)  | `implementation` `*800`                                                            | Apr/28/2025 04:29 PM |
+| 28  | [A - Wrong Subtraction](https://codeforces.com/contest/977/problem/A)                    | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/977/submission/317575460)  | `implementation` `*800`                                                            | Apr/28/2025 04:17 PM |
+| 27  | [A - Bear and Big Brother](https://codeforces.com/contest/791/problem/A)                 | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/791/submission/317575124)  | `implementation` `*800`                                                            | Apr/28/2025 04:14 PM |
+| 26  | [A - Arrival of the General](https://codeforces.com/contest/144/problem/A)               | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/144/submission/317429543)  | `implementation` `*800`                                                            | Apr/27/2025 11:28 AM |
+| 25  | [A - Team](https://codeforces.com/contest/231/problem/A)                                 | [C++20 (GCC 13-64)](https://codeforces.com/contest/231/submission/316386177)         | `brute force` `greedy` `*800`                                                      | Apr/20/2025 03:14 PM |
+| 24  | [A - George and Accommodation](https://codeforces.com/contest/467/problem/A)             | [C++20 (GCC 13-64)](https://codeforces.com/contest/467/submission/316383325)         | `implementation` `*800`                                                            | Apr/20/2025 02:50 PM |
+| 23  | [A - Bit++](https://codeforces.com/contest/282/problem/A)                                | [C++20 (GCC 13-64)](https://codeforces.com/contest/282/submission/316383204)         | `implementation` `*800`                                                            | Apr/20/2025 02:49 PM |
+| 22  | [A - Watermelon](https://codeforces.com/contest/4/problem/A)                             | [C++20 (GCC 13-64)](https://codeforces.com/contest/4/submission/315979827)           | `brute force` `math` `*800`                                                        | Apr/17/2025 05:16 PM |
+| 21  | [A - Team Olympiad](https://codeforces.com/contest/490/problem/A)                        | [C++20 (GCC 13-64)](https://codeforces.com/contest/490/submission/315731435)         | `greedy` `implementation` `sortings` `*800`                                        | Apr/15/2025 05:39 PM |
+| 20  | [A - Hit the Lottery](https://codeforces.com/contest/996/problem/A)                      | [C++20 (GCC 13-64)](https://codeforces.com/contest/996/submission/311256001)         | `dp` `greedy` `*800`                                                               | Mar/18/2025 02:25 PM |
+| 19  | [A - Elephant](https://codeforces.com/contest/617/problem/A)                             | [C++20 (GCC 13-64)](https://codeforces.com/contest/617/submission/311254077)         | `math` `*800`                                                                      | Mar/18/2025 02:11 PM |
+| 18  | [A - Domino piling](https://codeforces.com/contest/50/problem/A)                         | [C++20 (GCC 13-64)](https://codeforces.com/contest/50/submission/311253199)          | `greedy` `math` `*800`                                                             | Mar/18/2025 02:05 PM |
+| 17  | [A - Skibidus and Amog'u](https://codeforces.com/contest/2065/problem/A)                 | [C++20 (GCC 13-64)](https://codeforces.com/contest/2065/submission/305202533)        | `brute force` `constructive algorithms` `greedy` `implementation` `strings` `*800` | Feb/09/2025 05:02 PM |
+| 16  | [A - Anton and Letters](https://codeforces.com/contest/443/problem/A)                    | [C++20 (GCC 13-64)](https://codeforces.com/contest/443/submission/304315749)         | `constructive algorithms` `implementation` `*800`                                  | Feb/03/2025 09:58 PM |
+| 15  | [A - Shaass and Oskols](https://codeforces.com/contest/294/problem/A)                    | [C++20 (GCC 13-64)](https://codeforces.com/contest/294/submission/303311083)         | `implementation` `math` `*800`                                                     | Jan/28/2025 03:41 AM |
+| 14  | [A - Colorful Stones (Simplified Edition)](https://codeforces.com/contest/265/problem/A) | [C++20 (GCC 13-64)](https://codeforces.com/contest/265/submission/303309922)         | `implementation` `*800`                                                            | Jan/28/2025 03:05 AM |
+| 13  | [A - Is your horseshoe on the other hoof?](https://codeforces.com/contest/228/problem/A) | [C++20 (GCC 13-64)](https://codeforces.com/contest/228/submission/303309324)         | `implementation` `*800`                                                            | Jan/28/2025 02:47 AM |
+| 12  | [A - Buy a Shovel](https://codeforces.com/contest/732/problem/A)                         | [C++20 (GCC 13-64)](https://codeforces.com/contest/732/submission/303308787)         | `brute force` `constructive algorithms` `implementation` `math` `*800`             | Jan/28/2025 02:29 AM |
+| 11  | [A - Games](https://codeforces.com/contest/268/problem/A)                                | [C++20 (GCC 13-64)](https://codeforces.com/contest/268/submission/303032284)         | `brute force` `*800`                                                               | Jan/26/2025 03:11 PM |
+| 10  | [A - Black Square](https://codeforces.com/contest/431/problem/A)                         | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/431/submission/288053641)  | `implementation` `*800`                                                            | Oct/26/2024 11:39 AM |
+|  9  | [A - Police Recruits](https://codeforces.com/contest/427/problem/A)                      | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/427/submission/288049006)  | `implementation` `*800`                                                            | Oct/26/2024 11:05 AM |
+|  8  | [A - Stones on the Table](https://codeforces.com/contest/266/problem/A)                  | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/266/submission/287872359)  | `implementation` `*800`                                                            | Oct/25/2024 10:05 AM |
+|  7  | [A - Sereja and Dima](https://codeforces.com/contest/381/problem/A)                      | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/381/submission/287855024)  | `greedy` `implementation` `two pointers` `*800`                                    | Oct/25/2024 07:00 AM |
+|  6  | [A - Magnets](https://codeforces.com/contest/344/problem/A)                              | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/344/submission/287434142)  | `implementation` `*800`                                                            | Oct/22/2024 11:50 PM |
+|  5  | [A - Word](https://codeforces.com/contest/59/problem/A)                                  | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/59/submission/287433439)   | `implementation` `strings` `*800`                                                  | Oct/22/2024 11:41 PM |
+|  4  | [A - Boy or Girl](https://codeforces.com/contest/236/problem/A)                          | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/236/submission/287430533)  | `brute force` `implementation` `strings` `*800`                                    | Oct/22/2024 11:06 PM |
+|  3  | [A - Petya and Strings](https://codeforces.com/contest/112/problem/A)                    | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/112/submission/287399287)  | `implementation` `strings` `*800`                                                  | Oct/22/2024 07:27 PM |
+|  2  | [A - Anton and Danik](https://codeforces.com/contest/734/problem/A)                      | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/734/submission/286485913)  | `implementation` `strings` `*800`                                                  | Oct/18/2024 09:53 AM |
+|  1  | [A - Vanya and Fence](https://codeforces.com/contest/677/problem/A)                      | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/677/submission/286482784)  | `implementation` `*800`                                                            | Oct/18/2024 09:24 AM |

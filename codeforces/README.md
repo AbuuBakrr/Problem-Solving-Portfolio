@@ -1,27 +1,46 @@
-## Codeforces Submissions
+# Codeforces Solutions
 
-*Auto-generated with ❤️ using [Codeforces Submission Fetcher](https://github.com/Andrew-Velox/Codeforces-Submission-Fetcher-Extension)*
+> A comprehensive collection of solutions from Codeforces competitive programming platform
 
-## Introduction
+---
 
-A repository to keep track of problem solving practice, containing solutions from platforms:
+## Platform Information
 
-• **Codeforces**
+**Codeforces** is a leading platform for competitive programming contests featuring algorithmic challenges across multiple difficulty levels.
 
-> Codeforces is a website which hosts competitive programming contests: [http://codeforces.com](http://codeforces.com)
+Visit: [codeforces.com](http://codeforces.com)
 
+---
 
+## Submission Summary
 
-## Contents
+**Total Submissions**: 50  
+**Date Range**: October 2024 - December 2025  
+**Languages**: C++20, C++23
 
+---
 
+## Problem Index by Difficulty
 
-| # | Title | Solution | Tags | Submitted |
+| Difficulty | Count |          Folder          |
+| :--------- | ----: | :----------------------: |
+| 800        |    33 | [View Problems](./800/)  |
+| 900        |     3 | [View Problems](./900/)  |
+| 1000       |     1 | [View Problems](./1000/) |
+| 1100       |     3 | [View Problems](./1100/) |
+| 1200       |     1 | [View Problems](./1200/) |
+| 1300       |     1 | [View Problems](./1300/) |
+| 1600       |     2 | [View Problems](./1600/) |
+
+---
+
+## All Submissions
+
 |:-:|-------|----------|------|-----------|
-| 50 | [C - Max 2D Box](https://codeforces.com/contest/517439/problem/C) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/517439/submission/351440935) |  | Dec/01/2025 11:15 AM |
-| 49 | [B - Restaurant Customers](https://codeforces.com/contest/517439/problem/B) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/517439/submission/351340329) |  | Nov/30/2025 02:55 PM |
-| 48 | [A - Max Box](https://codeforces.com/contest/517439/problem/A) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/517439/submission/350580274) |  | Nov/25/2025 10:39 AM |
-| 47 | [E - Array (Hard Version)](https://codeforces.com/contest/518115/problem/E) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/518115/submission/350541762) |  | Nov/24/2025 11:46 PM |
+| 50 | [C - Max 2D Box](https://codeforces.com/contest/517439/problem/C) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/517439/submission/351440935) | | Dec/01/2025 11:15 AM |
+| 49 | [B - Restaurant Customers](https://codeforces.com/contest/517439/problem/B) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/517439/submission/351340329) | | Nov/30/2025 02:55 PM |
+| 48 | [A - Max Box](https://codeforces.com/contest/517439/problem/A) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/517439/submission/350580274) | | Nov/25/2025 10:39 AM |
+| 47 | [E - Array (Hard Version)](https://codeforces.com/contest/518115/problem/E) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/518115/submission/350541762) | | Nov/24/2025 11:46 PM |
 | 46 | [A - Tram](https://codeforces.com/contest/116/problem/A) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/116/submission/320287326) | `implementation` `*800` | May/18/2025 11:27 PM |
 | 45 | [A - Cancel the Trains](https://codeforces.com/contest/1453/problem/A) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/1453/submission/320057310) | `implementation` `*800` | May/17/2025 05:49 PM |
 | 44 | [B - Chat Order](https://codeforces.com/contest/637/problem/B) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/637/submission/320038200) | `*special` `binary search` `constructive algorithms` `data structures` `sortings` `*1200` | May/17/2025 04:29 PM |
