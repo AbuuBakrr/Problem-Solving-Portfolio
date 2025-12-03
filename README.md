@@ -27,9 +27,6 @@ Problem-Solving-Portfolio/
 │   ├── 1300/                      # Rating 1300 problems
 │   ├── 1600/                      # Rating 1600 problems
 │   └── Community Sheets/          # Additional practice materials
-├── input.txt                      # Test input file
-├── output.txt                     # Test output file
-└── test/                          # Local testing workspace
 ```
 
 ### File Naming Convention
