@@ -99,10 +99,5 @@ g++ -std=c++20 -O2 "codeforces/800/Tram_116A.cpp" && ./a.out
 
 ## Contact
 
-For suggestions, contributions, or improvements:
+If you want changes, run suggestions, or help implementing solutions, open an issue or edit the repo directly.
 
-- Open an issue on GitHub
-- Edit the repository directly
-- Submit pull requests with new solutions
-
----
