@@ -48,7 +48,7 @@ Example: `116A - Tram.cpp`
 Compile with g++ using C++20 (or C++23 for newer problems):
 
 ```bash
-g++ -std=c++20 -O2 -Wall -Wextra "codeforces/800/Tram_116A.cpp" -o tram
+g++ -std=c++20 -O2 -Wall -Wextra "codeforces/800/116A - Tram.cpp" -o tram
 ```
 
 ### Running a Solution
@@ -62,7 +62,7 @@ Run the compiled program with optional input from a file:
 Alternatively, compile and run in a single command:
 
 ```bash
-g++ -std=c++20 -O2 "codeforces/800/Tram_116A.cpp" && ./a.out
+g++ -std=c++20 -O2 "codeforces/800/116A - Tram.cpp" && ./a.out
 ```
 
 ---
