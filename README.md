@@ -34,10 +34,10 @@ Problem-Solving-Portfolio/
 All solution files follow this pattern:
 
 ```
-<ProblemTitle>_<ContestID><ProblemLetter>.cpp
+<ContestID><ProblemLetter> - <ProblemTitle>.cpp
 ```
 
-Example: `Tram_116A.cpp`
+Example: `116A - Tram.cpp`
 
 ---
 
@@ -70,7 +70,7 @@ g++ -std=c++20 -O2 "codeforces/800/Tram_116A.cpp" && ./a.out
 ## Adding New Solutions
 
 1. Place the `.cpp` file in the appropriate rating folder under `codeforces/`
-2. Follow the filename pattern: `<Title>_<ContestID><Letter>.cpp`
+2. Follow the filename pattern: `<ContestID><Letter> - <Title>.cpp`
 3. Update the corresponding rating folder's `README.md`
 4. Keep solutions self-contained (single file, no external dependencies)
 
@@ -97,4 +97,3 @@ g++ -std=c++20 -O2 "codeforces/800/Tram_116A.cpp" && ./a.out
 ## Contact
 
 If you want changes, run suggestions, or help implementing solutions, open an issue or edit the repo directly.
-
