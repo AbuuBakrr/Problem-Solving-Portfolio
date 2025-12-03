@@ -1,12 +1,22 @@
-// Problem: George and Accommodation (https://codeforces.com/contest/467/problem/A)
-// Placeholder solution file
-#include <bits/stdc++.h>
+#include <iostream>
+
 using namespace std;
 
 int main()
 {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    // TODO: implement solution
+
+    int n, r, p, c{};
+    cin >> n;
+
+    for (int i = 0; i < n; ++i)
+    {
+        cin >> p >> r;
+        if (p <= r - 2)
+            ++c;
+    }
+
+    cout << c;
     return 0;
 }
+
+ 

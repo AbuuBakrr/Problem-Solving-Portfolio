@@ -1,12 +1,27 @@
-// Problem: Bear and Big Brother (https://codeforces.com/contest/791/problem/A)
-// Placeholder solution file
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    // TODO: implement solution
+    int l, b;
+    cin >> l >> b;
+
+    int years{};
+
+    if ((1 <= l) && (l <= b) && (b <= 10))
+    {
+        for (int i = 1; true; i++)
+        {
+            l = l * 3;
+            b = b * 2;
+            years = i;
+
+            if (l > b)
+                break;
+        }
+    }
+
+    cout << years;
+
     return 0;
 }

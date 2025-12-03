@@ -1,12 +1,21 @@
-// Problem: Watermelon (https://codeforces.com/contest/4/problem/A)
-// Placeholder solution file
-#include <bits/stdc++.h>
+#include <iostream>
+// #include "CP.h"
+// #include <bits/stdc++.h>
+
 using namespace std;
 
 int main()
 {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    // TODO: implement solution
+    // freopen("/Users/abu-bakr/data/الكلية/codeforces/in.txt", "rt", stdin);
+    // freopen("/Users/abu-bakr/data/الكلية/codeforces/out.txt", "wt", stdout);
+
+    int a;
+    cin >> a;
+
+    if (a % 2 == 0 && a > 2)
+        cout << "YES";
+    else
+        cout << "NO";
+
     return 0;
 }

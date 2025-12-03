@@ -1,12 +1,33 @@
-// Problem: Is your horseshoe on the other hoof? (https://codeforces.com/contest/228/problem/A)
-// Placeholder solution file
+#include <iostream>
 #include <bits/stdc++.h>
+
 using namespace std;
 
 int main()
 {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    // TODO: implement solution
+
+    //  freopen("w.txt" , "r" , stdin) ;
+    vector<int> s{};
+    int m{};
+
+    for (int i = 0; i < 4; ++i)
+    {
+        int c;
+        cin >> c;
+        s.push_back(c);
+    }
+    for (int i = 0; i < 4; ++i)
+    {
+        for (int j = i + 1; j < 4; ++j)
+        {
+            if (s[i] == s[j] & s[i] != -1)
+            {
+                ++m;
+                s[j] = -1;
+            }
+        }
+    }
+
+    cout << m;
     return 0;
 }

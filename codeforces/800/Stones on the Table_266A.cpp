@@ -1,12 +1,37 @@
-// Problem: Stones on the Table (https://codeforces.com/contest/266/problem/A)
-// Placeholder solution file
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <deque>
+
 using namespace std;
 
 int main()
 {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    // TODO: implement solution
+    int n{}, m{}, e{}, i{};
+    char c;
+    vector<char> s;
+
+    cin >> n;
+
+    for (int i = 0; i < n; ++i)
+    {
+        cin >> c;
+        s.push_back(c);
+    }
+
+    while (i < s.size() - 1)
+    {
+        if (s[i] == s[i + 1])
+        {
+            s.erase(s.begin() + i + 1);
+            m += 1;
+        }
+        else
+        {
+            i += 1;
+        }
+    }
+
+    cout << m;
+
     return 0;
 }

@@ -1,6 +1,6 @@
 // Problem: Array (https://codeforces.com/contest/300/problem/A)
 // Placeholder solution file
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main()

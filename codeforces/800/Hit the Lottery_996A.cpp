@@ -1,12 +1,21 @@
-// Problem: Hit the Lottery (https://codeforces.com/contest/996/problem/A)
-// Placeholder solution file
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    // TODO: implement solution
+    int n = 0, c = 0;
+    cin >> n;
+    c += n / 100;
+    n %= 100;
+    c += n / 20;
+    n %= 20;
+    c += n / 10;
+    n %= 10;
+    c += n / 5;
+    n %= 5;
+    c += n / 1;
+    cout << c;
+
     return 0;
 }
+ 

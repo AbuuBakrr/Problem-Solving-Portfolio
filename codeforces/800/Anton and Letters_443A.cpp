@@ -1,12 +1,29 @@
-// Problem: Anton and Letters (https://codeforces.com/contest/443/problem/A)
-// Placeholder solution file
 #include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    // TODO: implement solution
+    string set;
+    getline(cin, set);
+
+    int num{}, arr[27]{};
+
+    for (int i = 0; i < set.size(); ++i)
+    {
+        if (set[i] >= 'a' && set[i] <= 'z')
+        {
+            arr[int(set[i]) - int('a')] += 1;
+        }
+    }
+
+    for (int i = 0; i < 27; ++i)
+    {
+        if (arr[i] != 0)
+            num += 1;
+    }
+
+    cout << num;
+
     return 0;
 }

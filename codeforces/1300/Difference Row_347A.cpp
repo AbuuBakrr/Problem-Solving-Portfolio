@@ -1,6 +1,6 @@
 // Problem: Difference Row (https://codeforces.com/contest/347/problem/A)
 // Placeholder solution file
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main()

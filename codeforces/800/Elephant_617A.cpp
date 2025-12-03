@@ -1,12 +1,14 @@
-// Problem: Elephant (https://codeforces.com/contest/617/problem/A)
-// Placeholder solution file
-#include <bits/stdc++.h>
+#include <iostream>
+#include <math.h>
 using namespace std;
 
 int main()
 {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    // TODO: implement solution
+    double n;
+    cin >> n;
+
+    cout << ceil(double(n / 5));
+
     return 0;
 }
+ 

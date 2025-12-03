@@ -1,12 +1,38 @@
-// Problem: Police Recruits (https://codeforces.com/contest/427/problem/A)
-// Placeholder solution file
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    // TODO: implement solution
+
+    int e{}, p{0}, o{0}, o2{0}, un{0};
+    cin >> e;
+
+    while (e--)
+    {
+        cin >> o;
+
+        if (o == -1 && p == 0)
+        {
+            un += 1;
+        }
+
+        else if (o != -1 && e == 0)
+        {
+            break;
+        }
+
+        else if (o == -1 && p != 0)
+        {
+            p--;
+        }
+
+        else
+        {
+            p += o;
+        }
+    }
+
+    cout << un;
+
     return 0;
 }

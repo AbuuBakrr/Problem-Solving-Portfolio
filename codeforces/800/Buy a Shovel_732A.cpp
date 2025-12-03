@@ -1,12 +1,24 @@
-// Problem: Buy a Shovel (https://codeforces.com/contest/732/problem/A)
-// Placeholder solution file
+#include <iostream>
 #include <bits/stdc++.h>
+
 using namespace std;
 
 int main()
 {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    // TODO: implement solution
+
+    //  freopen("w.txt" , "r" , stdin) ;
+    int s{}, r{}, num{};
+    cin >> s >> r;
+
+    for (int i = 1; i < 11; ++i)
+    {
+        if ((s * i % 10) == r || (s * i % 10) == 0)
+        {
+            num = i;
+            break;
+        }
+    }
+
+    cout << num;
     return 0;
 }

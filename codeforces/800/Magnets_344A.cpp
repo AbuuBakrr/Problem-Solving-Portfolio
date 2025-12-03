@@ -1,12 +1,22 @@
-// Problem: Magnets (https://codeforces.com/contest/344/problem/A)
-// Placeholder solution file
-#include <bits/stdc++.h>
+#include <iostream>
+#include <cctype>
 using namespace std;
 
 int main()
 {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    // TODO: implement solution
+    int no, group{}, pos1{}, pos2{};
+    cin >> no;
+
+    while (no--)
+    {
+        cin >> pos2;
+
+        if (pos1 != pos2)
+            group += 1;
+
+        pos1 = pos2;
+    }
+
+    cout << group;
     return 0;
 }

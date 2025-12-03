@@ -1,12 +1,33 @@
-// Problem: Bit++ (https://codeforces.com/contest/282/problem/A)
-// Placeholder solution file
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <math.h>
+#include <ostream>
+// #include "CP.h"
+// #include <bits/stdc++.h>
+
 using namespace std;
 
 int main()
 {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    // TODO: implement solution
+    // freopen("/Users/abu-bakr/data/الكلية/codeforces/in.txt", "rt", stdin);
+    // freopen("/Users/abu-bakr/data/الكلية/codeforces/out.txt", "wt", stdout);
+
+    int n, c{};
+    string f;
+
+    cin >> n;
+
+    while (n--)
+    {
+        cin >> f;
+        if (f == "--X" || f == "X--")
+            --c;
+        else if (f == "++X" || f == "X++")
+            ++c;
+    }
+
+    cout << c;
     return 0;
 }
+
+ 

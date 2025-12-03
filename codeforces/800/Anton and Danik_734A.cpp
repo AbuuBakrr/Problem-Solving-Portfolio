@@ -1,12 +1,28 @@
-// Problem: Anton and Danik (https://codeforces.com/contest/734/problem/A)
-// Placeholder solution file
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    // TODO: implement solution
+    int n{}, a{}, d{};
+    cin >> n;
+
+    string w{};
+    cin >> w;
+
+    for (int l = 0; l < w.size(); ++l)
+    {
+        if (w[l] == 'A')
+            a++;
+        else
+            d++;
+    }
+
+    if (a > d)
+        cout << "Anton";
+    else if (d > a)
+        cout << "Danik";
+    else
+        cout << "Friendship";
+
     return 0;
 }
