@@ -1,12 +1,33 @@
-// Problem: Difference Row (https://codeforces.com/contest/347/problem/A)
-// Placeholder solution file
 #include <iostream>
+#include <vector>
+#include <algorithm>
+#include <climits>
+
 using namespace std;
 
 int main()
 {
     ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    // TODO: implement solution
+    cin.tie(0);
+
+    int n;
+    cin >> n;
+
+    vector<int> a(n);
+    for (int i = 0; i < n; ++i)
+    {
+        cin >> a[i];
+    }
+
+    sort(a.begin(), a.end());
+
+    cout << *(a.end() - 1) << " ";
+
+    for (int i = 1; i < n - 1; ++i)
+    {
+        cout << a[i] << " ";
+    }
+    cout << *a.begin();
+
     return 0;
 }

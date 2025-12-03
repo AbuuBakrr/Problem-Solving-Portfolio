@@ -1,12 +1,25 @@
-// Problem: Juicer (https://codeforces.com/contest/709/problem/A)
-// Placeholder solution file
+#include <iostream>
 #include <bits/stdc++.h>
-using namespace std;
 
-int main()
-{
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    // TODO: implement solution
-    return 0;
+using namespace std ;
+
+int main(){
+    long long n {} , b {} ,d {} ;
+    cin >> n  >> b >> d ;
+
+    long long  waste {} , collect {};
+    for (long long i = 0 ; i < n ; ++i) {
+        long long  s {} ;
+        cin >>  s ;
+        if (s <= b) {
+            waste += s;
+            if (waste > d) {
+                collect ++;
+                waste = 0 ;
+            }
+        }
+    }
+
+    cout << collect ;
+    return 0 ;
 }

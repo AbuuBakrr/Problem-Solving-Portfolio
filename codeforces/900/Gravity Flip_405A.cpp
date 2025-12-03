@@ -1,12 +1,30 @@
-// Problem: Gravity Flip (https://codeforces.com/contest/405/problem/A)
-// Placeholder solution file
-#include <bits/stdc++.h>
+#include <iostream>
+#include <set>
+
 using namespace std;
 
 int main()
 {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    // TODO: implement solution
+    int n{}, ar[100], m{};
+    multiset<int> column;
+
+    cin >> n;
+    m = n;
+
+    while (m--)
+    {
+        int i;
+        cin >> i;
+        column.insert(i);
+    }
+
+    for (int c : column)
+    {
+        cout << c;
+        --n;
+        if (n)
+            cout << " ";
+    }
+
     return 0;
 }
