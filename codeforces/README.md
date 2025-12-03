@@ -86,4 +86,7 @@ Visit: [codeforces.com](http://codeforces.com)
 | 4 | [A - Petya and Strings](https://codeforces.com/contest/112/problem/A) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/112/submission/287399287) | `implementation` `strings` `*800` | Oct/22/2024 07:27 PM |
 | 3 | [A - Gravity Flip](https://codeforces.com/contest/405/problem/A) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/405/submission/287221304) | `greedy` `implementation` `sortings` `*900` | Oct/21/2024 04:51 PM |
 | 2 | [A - Anton and Danik](https://codeforces.com/contest/734/problem/A) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/734/submission/286485913) | `implementation` `strings` `*800` | Oct/18/2024 09:53 AM |
+
+## All Submissions
+
 | 1 | [A - Vanya and Fence](https://codeforces.com/contest/677/problem/A) | [C++23 (GCC 14-64, msys2)](https://codeforces.com/contest/677/submission/286482784) | `implementation` `*800` | Oct/18/2024 09:24 AM |
