@@ -49,3 +49,6 @@ CodeforcesRanks&Divs.webp
 .vscode
 problem.dSYM
 tempCodeRunnerFile.cpp
+*.bin
+*.cph
+*.dSYM
