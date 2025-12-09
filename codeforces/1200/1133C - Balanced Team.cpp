@@ -19,7 +19,6 @@
 #include <map>
 #include <queue>
 #include <stack>
-#include <ext/pb_ds/assoc_container.hpp>
 
 #define fastIO                        \
     ios_base::sync_with_stdio(false); \
@@ -37,71 +36,79 @@
 
 #define int long long
 #define pb push_back
+
 #define F first
 #define S second
+
 #define MP make_pair
 #define pii pair<int, int>
+
+#define lop(i, a, b) for (int i = a; i <= b; i++)
+#define lopr(i, a, b) for (int i = a; i >= b; i--)
+#define fr(i, b) for (int i = 0; i < b; i++)
+
 #define vi vector<int>
 #define vvi vector<vector<int>>
-#define loop(i, a, b) for (int i = a; i <= b; i++)
-#define loopr(i, a, b) for (int i = a; i >= b; i--)
-#define foor(i, b) for (int i = 0; i < b; i++)
+#define fv(v)         \
+    for (auto &i : v) \
+    {                 \
+        cin >> i;     \
+    }
+
+#define prefix(v)                      \
+    for (int i = 1; i < v.size(); i++) \
+    {                                  \
+        v[i] += v[i - 1];              \
+    }
+
+#define sum(v) accumulate(v.begin(), v.end(), 0LL)
+
+#define lb lower_bound
+#define ub upper_bound
+
+#define srt(v) sort(v.begin(), v.end())
 #define all(v) v.begin(), v.end()
 #define allr(v) v.rbegin(), v.rend()
+
 #define yes cout << "Yes";
 #define no cout << "No";
 
 using namespace std;
 
-int n, k, ans;
+int n, ans;
 
-bool solve(int cur, vector<int> &ingNeed, vector<int> &ingCur)
+bool solve(int mid, vector<int> &pre)
 {
-    int cnt{};
-    for (int i = 0; i < n; ++i)
+    for (size_t i = 0, j = mid; i < n - mid && j < n; i++, j++)
     {
-        if (ingNeed[i] * cur > ingCur[i])
-            cnt += (ingNeed[i] * cur - ingCur[i]);
-
-        if (cnt > k)
-            return false;
+        if (pre[j] - pre[i] <= 5)
+            return true;
     }
-
-    return true;
+    return false;
 }
 
 void operate()
 {
-    cin >> n >> k;
+    cin >> n;
+    vi studs(n);
+    fv(studs);
+    srt(studs);
 
-    vector<int> ingNeed(n);
-    for (auto &i : ingNeed)
-    {
-        cin >> i;
-    }
-
-    vector<int> ingCur(n);
-    for (auto &i : ingCur)
-    {
-        cin >> i;
-    }
-    int l = 0, r = 2e9;
-
+    int l = 1, r = 2e5;
     while (l <= r)
     {
-        int cur = (l + r) / 2;
-
-        if (solve(cur, ingNeed, ingCur))
+        int mid = (l + r) / 2;
+        if (solve(mid, studs))
         {
-            l = cur + 1;
-            ans = cur;
+            l = mid + 1;
+            ans = mid;
         }
         else
         {
-            r = cur - 1;
+            r = mid - 1;
         }
     }
-    cout << ans;
+    cout << ans ;
 }
 
 signed main()
